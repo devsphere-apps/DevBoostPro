@@ -14,9 +14,12 @@ DevBoost Pro is a powerful Visual Studio Code extension that significantly enhan
 - Save and reuse export configurations with templates
 
 ### Smart Code Snippet Manager
+- Create snippets directly from selected code with a right-click
 - Organize snippets with custom categories and tags
 - Powerful search and filtering capabilities
-- Context-aware snippet suggestions
+- Insert snippets directly into your code with a quick command
+- Mark favorites for quick access
+- Rich snippet editor with syntax highlighting
 - Cross-project snippet library
 
 ### Integrated Task Runner

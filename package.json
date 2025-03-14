@@ -32,6 +32,14 @@
         "title": "DevBoost: Manage Code Snippets"
       },
       {
+        "command": "devboost-pro.createSnippet",
+        "title": "DevBoost: Create Snippet from Selection"
+      },
+      {
+        "command": "devboost-pro.insertSnippet",
+        "title": "DevBoost: Insert Snippet"
+      },
+      {
         "command": "devboost-pro.runTask",
         "title": "DevBoost: Run Task"
       },
@@ -53,11 +61,13 @@
       "devboost-pro": [
         {
           "id": "devboost-snippets",
-          "name": "Snippets"
+          "name": "Snippets",
+          "icon": "media/icons/snippet.svg"
         },
         {
           "id": "devboost-tasks",
-          "name": "Tasks"
+          "name": "Tasks",
+          "icon": "media/icons/task.svg"
         }
       ]
     },
@@ -82,6 +92,15 @@
           "description": "Where to store code snippets"
         }
       }
+    },
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "devboost-pro.createSnippet",
+          "group": "DevBoost"
+        }
+      ]
     }
   },
   "scripts": {
