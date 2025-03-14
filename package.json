@@ -32,10 +32,6 @@
         "title": "DevBoost: Manage Code Snippets"
       },
       {
-        "command": "devboost-pro.startCollaboration",
-        "title": "DevBoost: Start Collaboration Session"
-      },
-      {
         "command": "devboost-pro.runTask",
         "title": "DevBoost: Run Task"
       },
@@ -62,10 +58,6 @@
         {
           "id": "devboost-tasks",
           "name": "Tasks"
-        },
-        {
-          "id": "devboost-collaboration",
-          "name": "Collaboration"
         }
       ]
     },

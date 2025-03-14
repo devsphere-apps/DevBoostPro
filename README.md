@@ -1,7 +1,7 @@
 # DevBoost Pro - VSCode Extension
 
 ## Overview
-DevBoost Pro is a powerful Visual Studio Code extension that significantly enhances developer productivity. It seamlessly integrates essential features including project tree export, intelligent snippet management, real-time collaboration tools, an integrated task runner, and a fully customizable developer dashboard.
+DevBoost Pro is a powerful Visual Studio Code extension that significantly enhances developer productivity. It seamlessly integrates essential features including project tree export, intelligent snippet management tools, an integrated task runner, and a fully customizable developer dashboard.
 
 ## Features
 
@@ -16,11 +16,6 @@ DevBoost Pro is a powerful Visual Studio Code extension that significantly enhan
 - Context-aware snippet suggestions
 - Cross-project snippet library
 
-### Real-Time Code Collaboration
-- Instant session creation with shareable links
-- Live cursor tracking and code synchronization
-- Granular access control and permissions
-- Built-in text chat for seamless communication
 
 ### Integrated Task Runner
 - Automatic detection of common project tasks
@@ -53,11 +48,6 @@ DevBoost Pro is a powerful Visual Studio Code extension that significantly enhan
 1. Open the Command Palette (Ctrl+Shift+P)
 2. Type "DevBoost: Manage Code Snippets"
 3. Use the interface to create, edit, and organize your snippets
-
-### Collaboration
-1. Open the Command Palette (Ctrl+Shift+P)
-2. Type "DevBoost: Start Collaboration Session"
-3. Share the generated link with your collaborators
 
 ### Task Runner
 1. Open the Command Palette (Ctrl+Shift+P)

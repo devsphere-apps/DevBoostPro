@@ -93,7 +93,6 @@ function getDashboardHtml() {
                     <h2>Quick Actions</h2>
                     <button>Export Project Tree</button>
                     <button>Run Task</button>
-                    <button>Start Collaboration</button>
                 </div>
             </div>
         </body>

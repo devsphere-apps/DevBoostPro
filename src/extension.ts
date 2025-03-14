@@ -3,7 +3,6 @@ import * as vscode from 'vscode';
 // Feature imports will go here
 import { registerProjectTreeExporter } from './features/projectTreeExporter';
 import { registerSnippetManager } from './features/snippetManager';
-import { registerCollaboration } from './features/collaboration';
 import { registerTaskRunner } from './features/taskRunner';
 import { registerDashboard } from './features/dashboard';
 
@@ -13,7 +12,6 @@ export function activate(context: vscode.ExtensionContext) {
     // Register features
     registerProjectTreeExporter(context);
     registerSnippetManager(context);
-    registerCollaboration(context);
     registerTaskRunner(context);
     registerDashboard(context);
 }
