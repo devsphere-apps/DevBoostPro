@@ -1,7 +1,7 @@
 {
   "name": "devboost-pro",
   "displayName": "DevBoost Pro",
-  "description": "Boost your development productivity with project tree export, snippet management, collaboration, task running, and a customizable dashboard",
+  "description": "Boost your development productivity with project tree export, task running, and a customizable dashboard",
   "version": "0.1.0",
   "publisher": "AbdulMateen",
   "license": "MIT",
@@ -14,7 +14,6 @@
   },
   "categories": [
     "Programming Languages",
-    "Snippets",
     "Other"
   ],
   "activationEvents": [
@@ -26,18 +25,6 @@
       {
         "command": "devboost-pro.exportProjectTree",
         "title": "DevBoost: Export Project Tree"
-      },
-      {
-        "command": "devboost-pro.manageSnippets",
-        "title": "DevBoost: Manage Code Snippets"
-      },
-      {
-        "command": "devboost-pro.createSnippet",
-        "title": "DevBoost: Create Snippet from Selection"
-      },
-      {
-        "command": "devboost-pro.insertSnippet",
-        "title": "DevBoost: Insert Snippet"
       },
       {
         "command": "devboost-pro.runTask",
@@ -60,11 +47,6 @@
     "views": {
       "devboost-pro": [
         {
-          "id": "devboost-snippets",
-          "name": "Snippets",
-          "icon": "media/icons/snippet.svg"
-        },
-        {
           "id": "devboost-tasks",
           "name": "Tasks",
           "icon": "media/icons/task.svg"
@@ -81,26 +63,8 @@
             ".git"
           ],
           "description": "Patterns to exclude from project tree export"
-        },
-        "devboost-pro.snippets.storageLocation": {
-          "type": "string",
-          "default": "workspace",
-          "enum": [
-            "workspace",
-            "global"
-          ],
-          "description": "Where to store code snippets"
         }
       }
-    },
-    "menus": {
-      "editor/context": [
-        {
-          "when": "editorHasSelection",
-          "command": "devboost-pro.createSnippet",
-          "group": "DevBoost"
-        }
-      ]
     }
   },
   "scripts": {
@@ -125,3 +89,4 @@
     "vscode-test": "^1.5.2"
   }
 }
+

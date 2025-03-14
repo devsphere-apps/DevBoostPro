@@ -1,79 +1,86 @@
-# DevBoost Pro - VSCode Extension
 
-## Overview
-DevBoost Pro is a powerful Visual Studio Code extension that significantly enhances developer productivity. It seamlessly integrates essential features including advanced project tree export, intelligent snippet management tools, an integrated task runner, and a fully customizable developer dashboard.
 
-## Features
 
-### Advanced Project Tree Exporter
-- Export your project structure in multiple formats (JSON, Markdown, Tree, YAML, HTML, XML)
-- Control visualization depth (1-10 levels or unlimited)
-- Include detailed metadata like file sizes, creation dates, and permissions
-- Customize with powerful include/exclude pattern filtering
-- Multiple output options: clipboard, file, or direct editor view
-- Save and reuse export configurations with templates
 
-### Smart Code Snippet Manager
-- Create snippets directly from selected code with a right-click
-- Organize snippets with custom categories and tags
-- Powerful search and filtering capabilities
-- Insert snippets directly into your code with a quick command
-- Mark favorites for quick access
-- Rich snippet editor with syntax highlighting
-- Cross-project snippet library
 
-### Integrated Task Runner
-- Automatic detection of common project tasks
-- One-click execution of npm, yarn, pytest and other commands
-- Custom workflow creation for complex task sequences
-- Real-time execution logs and notifications
 
-### Customizable Developer Dashboard
-- At-a-glance project insights and metrics
-- Git integration showing branch status and recent commits
-- Quick-access buttons for common development actions
-- Fully customizable widget layout and themes
 
-## Installation
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "DevBoost Pro"
-4. Click Install
 
-## Usage
+
+# DevBoost Pro - Supercharge Your VS Code Experience! ⚡
+
+![DevBoost Pro Banner](https://github.com/devsphere-apps/DevBoostPro/raw/main/media/banner.png)
+
+## What is DevBoost Pro?
+
+DevBoost Pro is your all-in-one productivity toolkit for VS Code! It brings together powerful features that help you work smarter, not harder. Whether you're documenting your project structure, running tasks, or keeping track of your development workflow, DevBoost Pro has you covered.
+
+## ✨ Features That Make Your Life Easier
+
+### 🌳 Project Tree Exporter - Document Your Code Structure in Seconds!
+- **Multiple formats**: Export as JSON, Markdown, Tree, YAML, HTML, or XML
+- **Customizable depth**: Show just what you need (1-10 levels or unlimited)
+- **Rich metadata**: Include file sizes, dates, and permissions
+- **Smart filtering**: Easily exclude node_modules, .git, or any pattern you choose
+- **Flexible output**: Copy to clipboard, save to file, or open in editor
+- **Save templates**: Create presets for your common export needs
+
+### ⚙️ Task Runner - Execute Commands Without Leaving VS Code!
+- **Auto-detection**: Automatically finds npm, yarn, pytest and other tasks
+- **One-click execution**: Run any task with a single command
+- **Custom workflows**: Chain multiple tasks together
+- **Live feedback**: See real-time logs as your tasks run
+
+### 📊 Developer Dashboard - Your Project at a Glance!
+- **Project insights**: See key metrics about your codebase
+- **Git integration**: Check branch status and recent commits
+- **Quick actions**: Access common tasks with a click
+- **Customizable layout**: Arrange widgets to suit your workflow
+
+## 🚀 Getting Started in 30 Seconds
+
+1. Install from VS Code Marketplace
+2. Open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac)
+3. Type "DevBoost" to see available commands
+4. Pick a feature and start boosting your productivity!
+
+## 📝 Quick Usage Guide
 
 ### Project Tree Exporter
-1. Open the Command Palette (Ctrl+Shift+P)
-2. Type "DevBoost: Export Project Tree"
-3. Choose a saved template or create a custom export
-4. If creating a custom export:
-   - Select your preferred format (JSON, Markdown, Tree, YAML, HTML, XML)
-   - Choose detail level (basic structure, file sizes, or full metadata)
-   - Set depth limit (1-10 levels or unlimited)
-   - Configure custom filters if needed
-   - Select output destination (clipboard, file, or editor)
-5. Optionally save your settings as a template for future use
+```
+Ctrl+Shift+P → "DevBoost: Export Project Tree" → Follow the prompts
+```
 
-### Snippet Manager
-1. Open the Command Palette (Ctrl+Shift+P)
-2. Type "DevBoost: Manage Code Snippets"
-3. Use the interface to create, edit, and organize your snippets
+**Pro tip**: Save your export settings as templates for one-click exports in the future!
 
 ### Task Runner
-1. Open the Command Palette (Ctrl+Shift+P)
-2. Type "DevBoost: Run Task"
-3. Select from the automatically detected tasks
+```
+Ctrl+Shift+P → "DevBoost: Run Task" → Select a task
+```
+
+**Pro tip**: The task list automatically updates based on your project files!
 
 ### Dashboard
-1. Open the Command Palette (Ctrl+Shift+P)
-2. Type "DevBoost: Open Developer Dashboard"
-3. Customize the dashboard to your preferences
+```
+Ctrl+Shift+P → "DevBoost: Open Developer Dashboard"
+```
 
-## Feedback and Support
+**Pro tip**: Pin the dashboard to the side for constant visibility of your project stats!
 
-Please report any issues or feature requests on our [GitHub repository](https://github.com/devsphere-apps/DevBoostPro).
+## 💬 We Love Feedback!
 
-## License
+Found a bug? Have a feature idea? We want to hear from you!
+- [Report issues on GitHub](https://github.com/devsphere-apps/DevBoostPro/issues)
+- [Request features](https://github.com/devsphere-apps/DevBoostPro/issues/new?labels=enhancement)
+- [Check our roadmap](https://github.com/devsphere-apps/DevBoostPro/projects)
 
-MIT 
+## 📜 License
+
+MIT - Use it, modify it, share it!
+
+---
+
+**Made with ❤️ by [DevSphere Apps](https://github.com/devsphere-apps)**
+
+*DevBoost Pro - Because life's too short for repetitive tasks!*
